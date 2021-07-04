@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-color {
+    color: #f00;
+}
+
+.sec-color {
+    color: #00f;
+}
+
+
+/* ----------------------------- Start section ----------------------------- */
+
+#container {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
+    align-content: center;
+    height: 500px;
+}
+
+#container #inp {
+    width: 300px;
+    height: 50px;
+    padding-left: 7px;
+    font-size: 27px;
+    margin-bottom: 20px;
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+}
+
+#container #inp:focus {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #0909a1;
+    transition: all 1s ease-in-out;
+}
+
+#checked {
+    padding: 20px 50px;
+    border: none;
+    background-color: #0909a1;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    cursor: pointer;
+}
+
+i {
+    color: #fff;
+    font-size: 40px;
+}
+
+
+/* ----------------------------- End section ----------------------------- */
+
+
+/* ----------------------------- End section ----------------------------- */
